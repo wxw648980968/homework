@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navItem{
+    background: white;
+}
+.navbar{
+    border: 0;
+    margin: 10px;
+}
+.footer{
+    padding: 20px 0;
+    background: #ddd;
+    text-align: center;
+}
+.mx_width{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot-logo img{
+    width: 100px;
+}
+.changpage{
+    padding-top: 20px;
+}
+.footer a{
+    color: #777;
+    text-align: center;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #2DAE36;
+}
+.footer .contact{
+    text-align: left;
+}
+.footer p{
+    color: #777;
+    font-size: 12px;
+}
+.saoma{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 10;
+}
+.joinus-banner img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.line{
+    border-bottom: 1px solid #2DAE36;
+}
+.ptitle2{
+    width: 120px;
+    height: 40px;
+    background: #2DAE36;
+    border-radius: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.joinus-condition,.joinus-policy{
+    background: #f9f9f9;
+    padding: 30px 0;
+}
+.joinus-part{
+    padding: 20px;
+}
+.joinus-part>div {
+    float: left;
+}
+.joinus-part-title{
+    font-size: 30px;
+	color:#333;
+	line-height: 1.6em;
+	padding-top: 12px;
+}
+.joinus-part-smalltitle{
+    font-size: 18px;
+	color:#2dae36;
+}
+.condition-mes,.process-mes,.policy-mes{
+    font-size: 14px;
+	color:#333;
+	line-height: 1.6em;
+	padding:15px;
+	box-sizing: border-box;
+}
+.joinus-process{
+    padding: 30px 0;
+	border-top:1px dotted #2dae36;
+	border-bottom:1px dotted #2dae36;
+}
+.policy-mes-title{
+    color:#2dae36;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 2em;
+}
+.policy-mes-item,.policy-mes-text{
+    text-indent: 2em;
+}
+
+

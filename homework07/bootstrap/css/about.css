@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navItem{
+    background: white;
+}
+.navbar{
+    border: 0;
+    margin: 10px;
+}
+.footer{
+    padding: 20px 0;
+    background: #ddd;
+    text-align: center;
+}
+.mx_width{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot-logo img{
+    width: 100px;
+}
+.changpage{
+    padding-top: 20px;
+}
+.footer a{
+    color: #777;
+    text-align: center;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #2DAE36;
+}
+.footer .contact{
+    text-align: left;
+}
+.footer p{
+    color: #777;
+    font-size: 12px;
+}
+.saoma{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 10;
+}
+
+
+.line{
+    margin-top: 30px;
+    border-bottom: 1px solid #2DAE36;
+}
+.ptitle2{
+    width: 120px;
+    height: 40px;
+    background: #2DAE36;
+    border-radius: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.aboutus-content{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.tips{
+    color: #2DAE36;
+}
+.muxi-info p{
+    color: #666;
+    text-indent: 2em;
+    line-height: 1.6em;
+    margin-bottom: 20px;
+}
+.mx_p{
+    height: 400px;
+}
+.aboutuspart .aboutus-content .mx_position{
+	height: 400px;
+}
+.aboutuspart .aboutus-content .mx_position .anchorBL{
+	opacity: 0;
+}
+.aboutuspart .aboutus-content .mx_position .BMap_omCtrl{
+	opacity: 0;
+}
+.aboutuspart .aboutus-content .mx_position .BMap_Marker>div img{
+	width: 200%;
+}
+.aboutuspart .aboutus-content .mx_position .BMapLabel{
+	max-width: none;
+	color:#2dae36;
+	font-size: 16px !important;
+	border:1px solid #2dae36 !important;
+	border-radius: 8px;
+	padding:4px 8px !important;
+	background: rgba(255,255,255,0.5)!important;
+}

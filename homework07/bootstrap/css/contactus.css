@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navItem{
+    background: white;
+}
+.navbar{
+    border: 0;
+    margin: 10px;
+}
+.footer{
+    padding: 20px 0;
+    background: #ddd;
+    text-align: center;
+}
+.mx_width{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot-logo img{
+    width: 100px;
+}
+.changpage{
+    padding-top: 20px;
+}
+.footer a{
+    color: #777;
+    text-align: center;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: #2DAE36;
+}
+.footer .contact{
+    text-align: left;
+}
+.footer p{
+    color: #777;
+    font-size: 12px;
+}
+.saoma{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0;
+    bottom: 150px;
+    z-index: 10;
+}
+.contact-banner img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.line{
+    border-bottom: 1px solid #2DAE36;
+}
+.ptitle2{
+    width: 120px;
+    height: 40px;
+    background: #2DAE36;
+    border-radius: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.contactus-content{
+    padding:50px 0;
+}
+.border-right{
+    padding-top: 40px;
+	padding-bottom: 20px;
+	border-right: 1px solid #2dae36;
+}
+.contactus-content span{
+    display: inline-block;
+	width: 36px;
+	height: 36px;
+	border: 1px solid #2dae36;
+	border-radius: 50%;
+	position: relative;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.bigger{
+    font-size: 30px;
+	text-align: right;
+	padding-right: 56px;
+}
+.bigger>span{
+    display: inline-block;
+	width: 56px;
+	height: 56px;
+	border: 1px solid #2dae36;
+}
+.contactus-content .iconfontbig{
+    color:#2dae36;
+    font-size:30px;
+    text-align: center;
+    padding-top: 5px;
+}
+.contactus-content .iconfontsmall{
+    color:#2dae36;
+    font-size:20px;
+    text-align: center;
+    padding-top: 2px;
+}
+@media (max-width: 768px){
+	.contactus-content{
+		padding:0;
+    }
+    .contactus-content .iconfontbig{
+        color:#2dae36;
+        font-size:20px;
+        text-align: center;
+        padding-top: 3px;
+    }
+	.contactus-content .border-right{
+		border-right:none;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.contactus-content .bigger{
+		font-size: 14px;
+		text-align:left;
+	}
+	.contactus-content .bigger>span{
+		width: 36px;
+		height: 36px;
+		border: 1px solid #2dae36;
+	}
+	.contactus-position{
+		height: 180px;
+		border-top:1px solid #2dae36;
+		border-bottom:1px solid #2dae36;
+	}
+}

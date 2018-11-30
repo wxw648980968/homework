@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{margin: 0;padding: 0;}
+    table{
+        width:1016px;
+        line-height: 20px;
+        border-collapse: collapse;
+        text-align:center;  
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: auto;margin-right: auto;
+        }
+    table,td{
+          text-align: left;
+        /*  border:1px solid black; */
+        }
+    .top{
+        background: #F56600;
+        width: 33px;height: 33px;
+       
+    }
+    .top-1{
+        font-size: 33px;
+        font-weight: bold;
+        color: black;
+        line-height: 15px;
+        
+    }
+    .top-2{
+        font-size: 13px;
+        margin-left: 55px;
+        line-height: 10px;
+        
+    }
+    .beijing{
+        width: 1000px;height: 600px;
+        position:absolute;
+    }
+    .biankuang{
+        width:600px;height: 1000px;
+        border: black solid 3px;
+        background: white;
+        position:absolute;
+    }
+    .form{
+        width:400px;height:500px;
+        background: white;
+        margin-right: -600px;
+      /*  border:1px solid #333; */
+        
+        margin-left: auto;
+        margin-top: -542px;margin-right: -401px;
+        text-align: center;
+        position: relative;
+            }
+    .denglu{
+        font-weight: bold;
+        color: #666666;
+        font-size: 23px;
+       
+    }
+    li{list-style: none;display: inline-block}
+    fieldset{border:none;}
+    .border{border-top: 1px solid #333;width:340px;display: inline-block;margin-top: 110px;}
+    input{width:350px;height:40px;margin-top: 30px; }
+    .check input{background:#F56600;color: white;font-size: 19px;margin-bottom: 30px;}
+    .forget a{
+          color:  #999999;
+          text-decoration: none;
+          font-size: 15px;
+    }
+    .allIcon a{
+        display: inline-block;
+        position: relative;
+        width:30px;height:30px;border-radius: 50%;background:#333;
+            }
+    .allIcon span{
+            position:absolute;
+            display: inline-block;
+            width:18px;
+            height:18px;
+            background:url("images/icons_type.png") no-repeat;
+            left:50%;top:50%;margin-left:-9px;margin-top: -9px;
+            }
+    .allIcon .qq{
+            background-position-x: -18px;
+            }
+    .allIcon .weibo{
+            background-position-x: -36px;
+            }
+    .allIcon .zhifu{
+            width:26px;
+            margin-left:-13px;
+            background-position-x: -57px;
+            }
+    .allIcon .weixin{
+            width:23px;
+            margin-left: -11.5px;
+            background-position-x: -84px;
+            }
+    .footer{
+        font-size: 13px;
+        color: #757575;
+        text-align: center;
+        padding-left: 355px;
+        margin-left: auto;margin-right: auto;
+    }
+    .footer-1{
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    .footer-2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+        </style>
+</head>
+<body>
+        <div >
+        <table>
+            <tr><td rowspan="4" class="top">
+            <img src="images/mi-logo.png">
+            </td></tr>
+            <tr><td class="top-1">小米商城</td></tr>
+            <tr><td class="top-2">让每个人都能享受科技的乐趣</td></tr>
+        </table>
+        </div>
+        <div class="beijing">
+         <img src="images/banner.png">
+        
+        <div class="form">
+          <div >
+            <ul class="denglu">
+            <li>账号登陆</li>
+            <li>|</li>
+            <li>扫码登陆</li>
+            </ul>
+            <div>
+                <form>
+                    <div><input type="text" placeholder="邮箱/手机号码/小米账号"></div>
+                    <div><input type="password" placeholder="密码"></div>
+                    <div class="check"><input type="submit" value="立即登陆"></div>
+                </form>
+                </div>
+                <div class="forget">
+                    <a href="#">注册小米账号 </a>
+                    <span class="forget">|</span>
+                    <a href="#"> 忘记密码 </a>
+                </div>
+                <fieldset class="border">
+                    <legend>其他登陆方式</legend>
+                </fieldset>
+                <div class="allIcon">
+                    <a href="#"><span class="qq"></span></a>
+                    <a href="#"><span class="weibo"></span></a>
+                    <a href="#"><span class="zhifu"></span></a>
+                    <a href="#"><span class="weixin"></span></a>
+                </div>
+            </div>   
+        </div> 
+    <div class="footer">
+        <ul class="footer-1">
+            <li>简体 |  </li>
+            <li> 繁体 |  </li>
+            <li> English |  </li>
+            <li> 常见问题  </li>
+        </ul>
+        <ul class="footer-2">
+            <li>小米公司版权所有-京ICP备1004644-京公网安备11010802020134号-京ICP证110507号</li>
+        </ul>
+    </div>
+</body>
+</html>
